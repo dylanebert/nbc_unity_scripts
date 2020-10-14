@@ -46,7 +46,7 @@ public class Playback : MonoBehaviour
             obj.transform.rotation = new Quaternion(objData.rotX, objData.rotY, objData.rotZ, objData.rotW);
         }
         if (recording) {
-            ScreenCapture.CaptureScreenshot("D:/DylanEbert/nbc/images/" + currentFrame.ToString() + ".jpg");
+            ScreenCapture.CaptureScreenshot("/path/to/images/" + currentFrame.ToString() + ".jpg");
         }
         yield return null;
     }
