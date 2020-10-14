@@ -23,7 +23,7 @@ public class Playback : MonoBehaviour
     }
 
     private void Start() {
-        reader = new StreamReader("D:/DylanEbert/nbc/val_kitchen2.txt");
+        reader = new StreamReader("/path/to/data.txt");
         dict = new Dictionary<string, GameObject>();
         candidates = FindObjectsOfType<Tracked>().ToList();
         foreach (Tracked tracked in candidates)
