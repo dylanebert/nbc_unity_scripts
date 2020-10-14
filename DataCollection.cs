@@ -140,7 +140,7 @@ public class DataCollection : MonoBehaviour
         }
         Vector3 relPos = head.InverseTransformDirection(obj.transform.position - head.position);
         Quaternion relRot = Quaternion.Inverse(head.rotation) * obj.transform.rotation;
-        Vector3 relVel = head.InverseTransformDirection(vel - head.position);
+        Vector3 relVel = head.InverseTransformDirection(vel);
         Vector3 extents = GetBounds(obj).extents;
         ObjectData data = new ObjectData() {
             step = timestep,
