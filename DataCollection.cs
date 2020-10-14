@@ -57,7 +57,7 @@ public class DataCollection : MonoBehaviour
     }
 
     void StartRecording() {
-        writer = new StreamWriter("D:/DylanEbert/nbc/data.txt");
+        writer = new StreamWriter("/path/to/data.txt");
         Debug.Log("Started recording");
         recording = true;
         recordStartTime = Time.time;
