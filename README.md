@@ -1,6 +1,6 @@
 # New Brown Corpus Unity Scripts
 
-Data collection and utility scripts in Unity.
+Data collection and utility scripts in Unity. The full Unity project isn't provided, as it contains paid assets. These scripts are likely to stop working out-of-the-box as SteamVR and Unity continue to evolve, but the idea behind the implementation is pretty simple and (hopefully) easy to adapt.
 
 ## Setup
 - Create a scene using SteamVR v2
